@@ -1,1 +1,6 @@
-
+# 内容：Anydesk
+# 域名关键字匹配
+DOMAIN-KEYWORD,anydesk
+DOMAIN-KEYWORD,Anydesk
+# 域名后缀匹配
+DOMAIN-SUFFIX,anydesk.com
