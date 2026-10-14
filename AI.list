@@ -1,26 +1,27 @@
-# 内容：OpenAi Bard anthropic
-# 域名关键字匹配
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,Claude
-# 域名后缀匹配
-DOMAIN-SUFFIX,perplexity.ai
+# GKZB company AI policy: precise service domains and selected login endpoints.
+# Keep shared SaaS providers tightly scoped; do not route all stripe/sentry/intercom/auth0.
+# OpenAI / ChatGPT base domains
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,cdn.openaimerge.com
+# OpenAI ChatGPT third-party hosts as published in their network recommendations
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,js.intercomcdn.com
+DOMAIN,js.stripe.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+# Anthropic / Claude, Perplexity, Google Gemini / AI Studio
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,bard.google.com
